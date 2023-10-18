@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RandomGeneratorElements : MonoBehaviour
@@ -29,7 +28,6 @@ public class RandomGeneratorElements : MonoBehaviour
     
         while (t)
         {
-            Debug.Log("Deberia funcionar");
             yield return new WaitForSeconds(3);
             obj1 = instanciarObjs();
         }

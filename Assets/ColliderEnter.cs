@@ -13,4 +13,9 @@ public class ColliderEnter : MonoBehaviour
             Debug.Log("Contador: "+contador);
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        contador--;
+        Debug.Log("Contador: " + contador);
+    }
 }
